@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+	background: linear-gradient(LightBlue, MistyRose);
+	transform: scale(2,2) translate(50%,50%);
+}
+input[type="text"] {
+     width: 100%; 
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+	background: white;
+	border-radius: 5px;
+	text-align: right;
+}
+
+input[type = "button"]
+{
+	background-color: MintCream;
+	border-radius: 5px;
+	
+}
+
+input[type="button"]:hover
+{
+	background-color: #C099F7;
+}
